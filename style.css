@@ -1,0 +1,40 @@
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.testimonial {
+  display: grid;
+  grid-template-columns: 4;
+  grid-template-rows: 2;
+  gap: 1rem;
+  max-width: 90vw;
+}
+/* default card styling */
+.card {
+  border: 1px solid red;
+  background-color: aquamarine;
+}
+
+/* individual card styling */
+#card1 {
+  grid: 1;
+  background-color: black;
+}
+#card2 {
+}
+#card3 {
+}
+#card4 {
+}
+#card5 {
+}
