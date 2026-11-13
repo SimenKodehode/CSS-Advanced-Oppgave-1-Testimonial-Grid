@@ -90,7 +90,7 @@ img {
   grid-row: 1 / 2;
   background-image: url(images/bg-pattern-quotation.svg);
   background-repeat: no-repeat;
-  background-position: top right 30%;
+  background-position: top right 15%;
   background-color: var(--Purple500);
 }
 #card1 img {
@@ -104,13 +104,13 @@ img {
 }
 #card2 {
   grid-column: 3 / 4;
-  background-color: var(--Grey400);
+  background-color: var(--Grey500);
 }
 #card2 img {
   border: 3px solid var(--Purple300);
 }
 #card2 h2 {
-  color: var(--White);
+  color: var(--Grey100);
 }
 #card2 p {
   color: var(--Purple50);
