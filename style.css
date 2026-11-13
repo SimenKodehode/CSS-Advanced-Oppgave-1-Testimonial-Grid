@@ -90,6 +90,15 @@ img {
   background-position: top right 30%;
   background-color: var(--Purple500);
 }
+#card1 img {
+  border: 3px solid var(--Purple300);
+}
+#card1 h2 {
+  color: var(--White);
+}
+#card1 p {
+  color: var(--Purple50);
+}
 #card2 {
   grid-column: 3 / 4;
   background-color: var(--Grey400);
