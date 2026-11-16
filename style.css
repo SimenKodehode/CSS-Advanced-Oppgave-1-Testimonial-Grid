@@ -51,13 +51,13 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .testimonial {
   display: grid;
-  grid-template-columns: (4, 1fr);
-  grid-template-rows: (2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   gap: 2rem;
   max-width: 70vw;
 }
@@ -188,4 +188,13 @@ img {
 #card5-kira p {
   color: var(--Grey400);
   line-height: 1.5rem;
+}
+
+@media (max-width: 375px) {
+  .testimonial {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 70vw;
+  }
 }
