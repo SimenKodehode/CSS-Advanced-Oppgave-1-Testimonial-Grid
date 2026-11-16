@@ -27,37 +27,39 @@
   --Darkblue: hsl(219, 29%, 14%);
   --Black: hsl(0, 0%, 7%);
   /* ## Typography */
+
   /* ### Body Copy */
-  --Fontsize: 13px;
+  --paragraph: 0.8125rem;
+  --heading: 1.3125rem;
 }
 
 body {
-  background-color: hsl(214, 17%, 92%);
+  background-color: var(--White);
   font-family: "Barlow Semi Condensed", sans-serif;
-  /* font-size: 13px; */
 }
 p {
-  font-size: 13px;
+  font-size: var(--paragraph);
   font-weight: 500;
 }
 
 h2 {
   margin-bottom: 10px;
+  font-size: var(--heading);
 }
 
 .testimonial-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* height: 100vh; */
+  height: 100vh;
 }
 
 .testimonial {
   display: grid;
   grid-template-columns: (4, 1fr);
   grid-template-rows: (2, 1fr);
-  gap: 1rem;
-  max-width: 90vw;
+  gap: 2rem;
+  max-width: 70vw;
 }
 /* default card styling */
 .card {
@@ -67,8 +69,7 @@ h2 {
   flex-direction: column;
   overflow: hidden;
   border-radius: 0.5rem;
-  padding: 0.5rem 2rem;
-  min-height: 20rem;
+  padding: 1rem 2rem;
   box-shadow: 10px 10px 50px 5px var(--Grey400);
 }
 
@@ -109,7 +110,7 @@ img {
   color: var(--White);
 }
 #card1-dani .profile h2 {
-  font-size: 13px;
+  font-size: var(--paragraph);
   margin-bottom: 0.1rem;
 }
 #card1-dani p {
@@ -126,7 +127,7 @@ img {
   color: var(--Grey100);
 }
 #card2-jona .profile h2 {
-  font-size: 13px;
+  font-size: var(--paragraph);
   margin-bottom: 0.1rem;
 }
 #card2-jona p {
@@ -143,7 +144,7 @@ img {
   color: var(--Grey400);
 }
 #card3-jean .profile h2 {
-  font-size: 13px;
+  font-size: var(--paragraph);
   margin-bottom: 0.1rem;
 }
 #card3-jean p {
@@ -163,7 +164,7 @@ img {
   color: var(--Grey200);
 }
 #card4-patr .profile h2 {
-  font-size: 13px;
+  font-size: var(--paragraph);
   margin-bottom: 0.1rem;
 }
 #card4-patr p {
@@ -181,7 +182,7 @@ img {
   color: var(--Grey400);
 }
 #card5-kira .profile h2 {
-  font-size: 13px;
+  font-size: var(--paragraph);
   margin-bottom: 0.1rem;
 }
 #card5-kira p {
